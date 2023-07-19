@@ -15,19 +15,36 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: app-getrewell-com # unique identifier
+    name: app.getrewell.com
+    description: 'Rewell App Prod' # default=empty
+    url: 'https://app.getrewell.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+  - id: api2-getrewell-com
+    name: api2.getrewell.com
+    description: 'Rewell Backend Prod'
+    url: 'https://api2.getrewell.com/'
+
+  - id: sapp-getrewell-com
+    name: sapp.getrewell.com
+    description: 'Rewell App Staging'
+    url: 'https://sapp.getrewell.com/'
+
+  - id: sapi2-getrewell-com
+    name: sapi2.getrewell.com
+    description: 'Rewell Backend Staging'
+    url: 'https://sapi2.getrewell.com/'
+
+  - id: tapp-getrewell-com
+    name: tapp.getrewell.com
+    description: 'Rewell App Test'
+    url: 'https://tapp.getrewell.com/'
+    
+  - id: tapi2-getrewell-com
+    name: tapi2.getrewell.com
+    description: 'Rewell Backend Test'
+    url: 'https://tapi2.getrewell.com/'
