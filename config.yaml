@@ -48,3 +48,13 @@ monitors:
     name: tapi2.getrewell.com
     description: 'Rewell Backend Test'
     url: 'https://tapi2.getrewell.com/'
+
+  - id: api-xtrack-labtory-com-ar
+    name: api-xtrack.labtory.com.ar
+    description: 'Xtrack Backend'
+    url: 'https://api-xtrack.labtory.com.ar'
+
+  - id: test-api-xtrack-labtory-com-ar
+    name: test-api-xtrack.labtory.com.ar
+    description: 'Xtrack Backend Test'
+    url: 'https://test-api-xtrack.labtory.com.ar'
